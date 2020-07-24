@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Guitar Basic</string>
+    <string name="first_string">Enter 1st String Name</string>
+    <string name="second_string">Enter 2nd String Name</string>
+    <string name="third_string">Enter 3rd String Name</string>
+    <string name="forth_string">Enter 4th String Name</string>
+    <string name="fifth_string">Enter 5th String Name</string>
+    <string name="sixth_string">Enter 6th String Name</string>
+    <string name="button_click">Check</string>
+    <string name="top_view">Welcome! Lets Check Your Guitar Basic Knowledge</string>
+</resources>
