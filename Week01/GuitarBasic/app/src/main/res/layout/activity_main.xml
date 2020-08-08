@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/firstString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/first_string"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/audiowide"
+        android:text="@string/top_view"
+        android:textColor="?attr/colorControlActivated"
+        android:textColorLink="@android:color/holo_blue_light"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/secondString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/second_string"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstString" />
+
+    <EditText
+        android:id="@+id/thirdString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/third_string"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondString" />
+
+    <EditText
+        android:id="@+id/forthString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/forth_string"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thirdString" />
+
+    <EditText
+        android:id="@+id/fifthString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/fifth_string"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forthString" />
+
+    <EditText
+        android:id="@+id/sixthString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/sixth_string"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fifthString" />
+
+    <TextView
+        android:id="@+id/displayTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:layout_marginBottom="86dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:textColor="@android:color/widget_edittext_dark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sixthString" />
+
+    <Button
+        android:id="@+id/checkResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:onClick="sendCheck"
+        android:text="@string/button_click"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sixthString" />
+
+    <TextView
+        android:id="@+id/firstTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintStart_toEndOf="@+id/firstString"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/secondTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintStart_toEndOf="@+id/secondString"
+        app:layout_constraintTop_toBottomOf="@+id/firstTv" />
+
+    <TextView
+        android:id="@+id/thirdTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintStart_toEndOf="@+id/thirdString"
+        app:layout_constraintTop_toBottomOf="@+id/secondTv" />
+
+    <TextView
+        android:id="@+id/forthTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintStart_toEndOf="@+id/forthString"
+        app:layout_constraintTop_toBottomOf="@+id/thirdTv" />
+
+    <TextView
+        android:id="@+id/fifthTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintStart_toEndOf="@+id/fifthString"
+        app:layout_constraintTop_toBottomOf="@+id/forthTv" />
+
+    <TextView
+        android:id="@+id/sixthTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintStart_toEndOf="@+id/sixthString"
+        app:layout_constraintTop_toBottomOf="@+id/fifthTv" />
+</androidx.constraintlayout.widget.ConstraintLayout>
