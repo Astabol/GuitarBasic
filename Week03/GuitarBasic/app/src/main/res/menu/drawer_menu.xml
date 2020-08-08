@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            />
+        <item
+            android:id="@+id/a_chords"
+            android:title="A-Chords"
+            />
+        <item
+            android:id="@+id/b_chords"
+            android:title="B-Chords"
+            />
+        <item
+            android:id="@+id/c_chords"
+            android:title="C-Chords"
+            />
+        <item
+            android:id="@+id/d_chords"
+            android:title="D-Chords"/>
+        <item
+            android:id="@+id/e_chords"
+            android:title="E-Chords"
+            />
+        <item
+            android:id="@+id/f_chords"
+            android:title="F-Chords"
+            />
+
+        <item
+            android:id="@+id/g_chords"
+            android:title="G-Chords"/>
+    </group>
+
+<!--    <item android:title="Communicate">-->
+<!--        <menu>-->
+<!--            <item android:id="@+id/nav_share"-->
+<!--                android:title="Share"/>-->
+<!--        </menu>-->
+<!--    </item>-->
+
+
+</menu>
